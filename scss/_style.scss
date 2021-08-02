@@ -8,20 +8,39 @@
         .title-block {
             font-size: 30px;
             font-family: $font01;
+            &:hover {
+                color: #fff;
+            }
         }
     }
-
     .right-block {
         width: $size01;
         height: $size01;
         background-color: $color02;
         .title-block2 {
-        font-size: 30px;
-        font-family: $font02;
+            font-size: 30px;
+            font-family: $font02;
+            &:hover {
+                color: aqua;
+            }
         }
 
     }
 }
 
 
+.wrapper-box {
+    display: flex;
+    justify-content: space-around;
+    .text1 {
+        font-size: 30px;
+        font-family: $font02;
+        &:nth-child(1) {
+            color: midnightblue;
+        }
 
+        &:nth-child(2) {
+            color: teal;
+        }
+    }
+}

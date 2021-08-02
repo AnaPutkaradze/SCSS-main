@@ -67,6 +67,10 @@ table {
   font-family: "Uchen", serif;
 }
 
+.wrapper .left-block .title-block:hover {
+  color: #fff;
+}
+
 .wrapper .right-block {
   width: 400px;
   height: 400px;
@@ -76,5 +80,30 @@ table {
 .wrapper .right-block .title-block2 {
   font-size: 30px;
   font-family: "Otomanopee One";
+}
+
+.wrapper .right-block .title-block2:hover {
+  color: aqua;
+}
+
+.wrapper-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrapper-box .text1 {
+  font-size: 30px;
+  font-family: "Otomanopee One";
+}
+
+.wrapper-box .text1:nth-child(1) {
+  color: midnightblue;
+}
+
+.wrapper-box .text1:nth-child(2) {
+  color: teal;
 }
 /*# sourceMappingURL=global.css.map */
