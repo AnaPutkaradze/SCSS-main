@@ -8,6 +8,8 @@
         .title-block {
             font-size: 30px;
             font-family: $font01;
+            @include border(2px, solid, black);
+            @include transition(all, 0.5s, linear, 0.2s);
             &:hover {
                 color: #fff;
             }
@@ -20,6 +22,8 @@
         .title-block2 {
             font-size: 30px;
             font-family: $font02;
+            @include border(2px, solid, black);
+            @include transition(all, 0.5s, linear, 0.2s);
             &:hover {
                 color: aqua;
             }
@@ -30,8 +34,7 @@
 
 
 .wrapper-box {
-    display: flex;
-    justify-content: space-around;
+    @include flex(flex, space-around, center);
     .text1 {
         font-size: 30px;
         font-family: $font02;

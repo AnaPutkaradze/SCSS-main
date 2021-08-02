@@ -65,6 +65,17 @@ table {
 .wrapper .left-block .title-block {
   font-size: 30px;
   font-family: "Uchen", serif;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
 }
 
 .wrapper .left-block .title-block:hover {
@@ -80,6 +91,17 @@ table {
 .wrapper .right-block .title-block2 {
   font-size: 30px;
   font-family: "Otomanopee One";
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
 }
 
 .wrapper .right-block .title-block2:hover {
@@ -92,6 +114,9 @@ table {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .wrapper-box .text1 {
