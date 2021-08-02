@@ -5,6 +5,10 @@
         width: $size01;
         height: $size01;
         background-color: $color01;
+        @include transition(all, 0.5s, linear, 0.2s);
+            &:hover {
+                color: #fff;
+            }
         .title-block {
             font-size: 30px;
             font-family: $font01;
@@ -25,7 +29,7 @@
             @include border(2px, solid, black);
             @include transition(all, 0.5s, linear, 0.2s);
             &:hover {
-                color: aqua;
+                color: black;
             }
         }
 

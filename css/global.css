@@ -59,7 +59,19 @@ table {
 .wrapper .left-block {
   width: 400px;
   height: 400px;
-  background-color: red;
+  background-color: #EE82EE;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.wrapper .left-block:hover {
+  color: #fff;
 }
 
 .wrapper .left-block .title-block {
@@ -85,7 +97,7 @@ table {
 .wrapper .right-block {
   width: 400px;
   height: 400px;
-  background-color: green;
+  background-color: #32de84;
 }
 
 .wrapper .right-block .title-block2 {
@@ -105,7 +117,7 @@ table {
 }
 
 .wrapper .right-block .title-block2:hover {
-  color: aqua;
+  color: black;
 }
 
 .wrapper-box {
