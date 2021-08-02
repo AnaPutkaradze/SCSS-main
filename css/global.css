@@ -39,6 +39,15 @@ table {
   border-spacing: 0;
 }
 
+@font-face {
+  font-family: 'Otomanopee One';
+  src: url("../fonts/OtomanopeeOne-Regular.eot");
+  src: url("../fonts/OtomanopeeOne-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OtomanopeeOne-Regular.woff2") format("woff2"), url("../fonts/OtomanopeeOne-Regular.woff") format("woff"), url("../fonts/OtomanopeeOne-Regular.svg#OtomanopeeOne-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,5 +75,6 @@ table {
 
 .wrapper .right-block .title-block2 {
   font-size: 30px;
+  font-family: "Otomanopee One";
 }
 /*# sourceMappingURL=global.css.map */
