@@ -5,12 +5,20 @@
         width: $size01;
         height: $size01;
         background-color: $color01;
+        .title-block {
+            font-size: 30px;
+            font-family: $font01;
+        }
     }
 
     .right-block {
         width: $size01;
         height: $size01;
-        background-color: $color02
+        background-color: $color02;
+        .title-block2 {
+            font-size: 30px;
+        }
+
     }
 }
 

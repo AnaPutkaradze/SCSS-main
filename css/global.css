@@ -53,9 +53,18 @@ table {
   background-color: red;
 }
 
+.wrapper .left-block .title-block {
+  font-size: 30px;
+  font-family: "Uchen", serif;
+}
+
 .wrapper .right-block {
   width: 400px;
   height: 400px;
   background-color: green;
+}
+
+.wrapper .right-block .title-block2 {
+  font-size: 30px;
 }
 /*# sourceMappingURL=global.css.map */
