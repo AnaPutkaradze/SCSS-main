@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    .left-block {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+
+    .right-block {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+    }
+}
+
+
+
