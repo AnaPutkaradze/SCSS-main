@@ -1,16 +1,16 @@
 .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     .left-block {
-        width: 200px;
-        height: 200px;
-        background-color: red;
+        width: $size01;
+        height: $size01;
+        background-color: $color01;
     }
 
     .right-block {
-        width: 200px;
-        height: 200px;
-        background-color: blue;
+        width: $size01;
+        height: $size01;
+        background-color: $color02
     }
 }
 
