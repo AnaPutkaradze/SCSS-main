@@ -60,18 +60,6 @@ table {
   width: 400px;
   height: 400px;
   background-color: #EE82EE;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
-}
-
-.wrapper .left-block:hover {
-  color: #fff;
 }
 
 .wrapper .left-block .title-block {
@@ -117,7 +105,7 @@ table {
 }
 
 .wrapper .right-block .title-block2:hover {
-  color: black;
+  color: red;
 }
 
 .wrapper-box {
@@ -140,7 +128,31 @@ table {
   color: midnightblue;
 }
 
+.wrapper-box .text1:nth-child(1):hover {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  color: red;
+}
+
 .wrapper-box .text1:nth-child(2) {
   color: teal;
+}
+
+.wrapper-box .text1:nth-child(2):hover {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  color: black;
 }
 /*# sourceMappingURL=global.css.map */

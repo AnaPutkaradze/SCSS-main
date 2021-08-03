@@ -5,10 +5,6 @@
         width: $size01;
         height: $size01;
         background-color: $color01;
-        @include transition(all, 0.5s, linear, 0.2s);
-            &:hover {
-                color: #fff;
-            }
         .title-block {
             font-size: 30px;
             font-family: $font01;
@@ -29,7 +25,7 @@
             @include border(2px, solid, black);
             @include transition(all, 0.5s, linear, 0.2s);
             &:hover {
-                color: black;
+                color: red;
             }
         }
 
@@ -44,10 +40,19 @@
         font-family: $font02;
         &:nth-child(1) {
             color: midnightblue;
+            &:hover {
+                @include transition(all, 0.5s, linear, 0.2s);
+                color: red;
+            }
         }
 
         &:nth-child(2) {
             color: teal;
+            &:hover {
+                @include transition(all, 0.5s, linear, 0.2s);
+                color: black;
+            }
+
         }
     }
 }
